@@ -6,14 +6,14 @@
 NODE_ENV=development
 
 # Put Discord bot token here, you can get it from https://discord.com/developers/applications
-TOKEN=MTA0NTUwODAwNTUxMDI2Njg5MQ.GyUxyc.zQ7EiBiH8KXYIYXvVSnpDnC0erFwJX3j_KriJg
+
 
 # Put the database connection URL here
 # Example for SQLite:
-DB=sqlite://data.sqlite
+# DB=sqlite://data.sqlite
 # Example for PostgreSQL:
-# DB=postgresql://esmbot:verycoolpass100@localhost:5432/esmbot
-
+#DB=postgresql://esmbot:verycoolpass100@localhost:5432/esmbot
+DB=sqlite://p31069_pgaql:verysecure1A@pgsql.ct8.pl/pgsql
 # Put snowflake ID of bot owner here (obtainable by going into Discord settings -> Appearance and enabling Developer Mode,
 # then right clicking on your profile picture and selecting Copy ID)
 OWNER=702986546860523581
